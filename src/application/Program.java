@@ -1,14 +1,13 @@
 package application;
 
+import bordergame.Board;
 import bordergame.Position;
 
 public class Program {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Position pos = new Position(1, 3);
-		
-		System.out.println(pos.toString());
+		Board board = new Board(8, 8);
 	}
 
 }
